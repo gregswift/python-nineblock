@@ -1,0 +1,25 @@
+#nineblock {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+#summary {
+ padding: 5px;
+}
+
+#controls {
+  width: 25em;
+}
+
+#control-employee {
+  display: flex;
+}
+
+#control-groupby {
+  display: flex;
+}
+
+.dash-dropdown {
+  width: 25em;
+}
