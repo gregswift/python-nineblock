@@ -3,6 +3,7 @@
 This is a visualization tool for the 9blocking exercise.
 
 # Known issues
+* I need to document the format of the source data
 * relies on current DATADIR to exist at same level as app.py
   * Would like to see the dataset be selectable based on directory names
 * On main view if you select a person, for some reason its defaulting to empty          
