@@ -35,7 +35,7 @@ def calculate_matches(dataset):
 
 def average_dataset(dataset):
     mean = dataset.mean(numeric_only=True).round(0)
-    dataset = dataset.append(mean, ignore_index=True)
+    dataset = pd.concat([dataset, pd.DataFrame([mean])], ignore_index=True)
     dataset = dataset.fillna('Average')
     return dataset
 
